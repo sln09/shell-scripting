@@ -1,5 +1,5 @@
 log-file=/tmp/expense.log
-color="\e[31m"
+color="\e[33m"
 echo -e "$color installing nginx \e[0m"
 dnf install nginx -y &>>$log-file
 echo -e "$color copying expense.conf \e[0m"
