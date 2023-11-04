@@ -1,0 +1,4 @@
+pwd
+lsblk
+df
+free
