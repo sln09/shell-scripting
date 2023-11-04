@@ -33,9 +33,9 @@ echo -e "$color unzipping \e[0m"
 cd /usr/share/nginx/html
 unzip /tmp/frontend.zip &>>$log-file
 if [ $? -eq 0 ]; then
-  echo -e"\e[33m success \e[0m"
+  echo -e "\e[33m success \e[0m"
 else
-    echo -e"\e[31m fail \e[0m"
+    echo -e "\e[31m fail \e[0m"
 fi
 echo -e "$color starting service \e[0m"
 systemctl enable nginx &>>$log-file
