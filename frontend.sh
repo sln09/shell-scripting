@@ -7,7 +7,6 @@ echo $?
 echo -e "$color copying expense.conf \e[0m"
 cp expense.conf /etc/nginx/default.d/expense.conf &>>$log-file
 echo $?
-
 echo -e "$color removing old content \e[0m"
 rm -rf /usr/share/nginx/html/* &>>$log-file
 echo $?
